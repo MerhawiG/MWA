@@ -1,6 +1,7 @@
 var applyCoupon = (category)=>(discount)=>(item)=>{
     if(category!=item.category) return {};
     item.price = item.price * (1-discount);
+    return item;
 }
 const item = {
     "name":"Biscuits",
