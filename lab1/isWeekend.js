@@ -6,4 +6,5 @@ function isWeekend(){
     return days[day];
     
 }
+consile.log("test");
 console.log(isWeekend());
