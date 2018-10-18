@@ -13,10 +13,10 @@ export class AppComponent {
   private arrayItems: Array<object>;
 
   constructor() {
-    this.arrayItems = [{ name: 'Edwin', color: '#b00404' }, 
-    { name: 'Alejandro', color: '#00aaff' }, 
-    { name: 'Cobos', color: '#04b04a' }, 
-    { name: 'Fonseca', color: '#a704b0' }];
+    this.arrayItems = [{ name: 'anna', color: '#b00404' }, 
+    { name: 'mera', color: '#00aaff' }, 
+    { name: 'blue', color: '#04b04a' }, 
+    { name: 'grey', color: '#a704b0' }];
   }
 
 }
